@@ -1,0 +1,1 @@
+window.Hybrid.invokeWeb('{"sn":"cb_0", "value": "1.4.0"}');

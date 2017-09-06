@@ -1,0 +1,19 @@
+{
+  "name": "hybrid-h5",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dist": "babel src -d dist",
+    "build_test": "webpack --config webpack.config.js && http-server"
+  },
+  "author": "zym",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "http-server": "^0.10.0",
+    "webpack": "^2.7.0"
+  }
+}
